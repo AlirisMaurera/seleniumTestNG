@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "presta-shop-module">
+    <test name = "prestashop-1">
+        <parameter name = "email" value = "franklin2@gmail.com"/>
+        <parameter name = "password" value = "123456"/>
+        <parameter name = "name" value = "Franklin Maurera"/>
+        <classes>
+            <class name = "tests.PrestaShopTest"/>
+        </classes>
+    </test>
+    <test name = "prestashop-2">
+        <parameter name = "email" value = "alejandra2@gmail.com"/>
+        <parameter name = "password" value = "123456"/>
+        <parameter name = "name" value = "Alejandra Maurera"/>
+        <classes>
+            <class name = "tests.PrestaShopTest"/>
+        </classes>
+    </test>
+    <test name = "prestashop-3">
+        <parameter name = "email" value = "alexis2@gmail.com"/>
+        <parameter name = "password" value = "123456"/>
+        <parameter name = "name" value = "Alexis Maurera"/>
+        <classes>
+            <class name = "tests.PrestaShopTest"/>
+        </classes>
+    </test>
+    <test name = "prestashop-4">
+        <parameter name = "email" value = "aliris2@gmail.com"/>
+        <parameter name = "password" value = "123456"/>
+        <parameter name = "name" value = "Aliris Maurera"/>
+        <classes>
+            <class name = "tests.PrestaShopTest"/>
+        </classes>
+    </test>
+    <test name = "prestashop-5">
+        <parameter name = "email" value = "sebastian2@gmail.com"/>
+        <parameter name = "password" value = "123456"/>
+        <parameter name = "name" value = "Sebastian Maurera"/>
+        <classes>
+            <class name = "tests.PrestaShopTest"/>
+        </classes>
+    </test>
+    <test name = "prestashop-6">
+        <parameter name = "email" value = "franlis2@gmail.com"/>
+        <parameter name = "password" value = "123456"/>
+        <parameter name = "name" value = "Farnlis Maurera"/>
+        <classes>
+            <class name = "tests.PrestaShopTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "open-youtube-module">
+    <test name = "open-youtube-1">
+        <parameter name = "name" value = "java"/>
+        <classes>
+            <class name = "tests.OpenYouTubeTest"/>
+        </classes>
+    </test>
+    <test name = "open-youtube-2">
+        <parameter name = "name" value = "html"/>
+        <classes>
+            <class name = "tests.OpenYouTubeTest"/>
+        </classes>
+    </test>
+    <test name = "open-youtube-3">
+        <parameter name = "name" value = "javascript"/>
+        <classes>
+            <class name = "tests.OpenYouTubeTest"/>
+        </classes>
+    </test>
+    <test name = "open-youtube-4">
+        <parameter name = "name" value = "mysql"/>
+        <classes>
+            <class name = "tests.OpenYouTubeTest"/>
+        </classes>
+    </test>
+    <test name = "open-youtube-5">
+        <parameter name = "name" value = "phyton"/>
+        <classes>
+            <class name = "tests.OpenYouTubeTest"/>
+        </classes>
+    </test>
+</suite>
