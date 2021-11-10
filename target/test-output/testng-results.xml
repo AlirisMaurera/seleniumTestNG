@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-04T10:17:17 BRT" name="presta-shop-module" finished-at="2021-11-04T10:21:31 BRT" duration-ms="254043">
+    <groups>
+    </groups>
+    <test started-at="2021-11-04T10:17:17 BRT" name="prestashop-2" finished-at="2021-11-04T10:18:37 BRT" duration-ms="80064">
+      <class name="tests.PrestaShopTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PrestaShopTest@770c2e6b]" started-at="2021-11-04T10:17:17 BRT" name="setup" finished-at="2021-11-04T10:17:51 BRT" duration-ms="33709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Parametizer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PrestaShopTest@770c2e6b]" started-at="2021-11-04T10:17:51 BRT" name="Parametizer" finished-at="2021-11-04T10:17:51 BRT" depends-on-methods="basetest.BaseTest.setup" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alejandra2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alejandra Maurera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parametizer -->
+        <test-method signature="Logar()[pri:0, instance:tests.PrestaShopTest@770c2e6b]" started-at="2021-11-04T10:17:51 BRT" name="Logar" finished-at="2021-11-04T10:18:15 BRT" duration-ms="24167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logar -->
+        <test-method signature="buyProduct()[pri:0, instance:tests.PrestaShopTest@770c2e6b]" started-at="2021-11-04T10:18:15 BRT" name="buyProduct" finished-at="2021-11-04T10:18:23 BRT" depends-on-methods="tests.PrestaShopTest.Logar" duration-ms="7885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method signature="Pay()[pri:0, instance:tests.PrestaShopTest@770c2e6b]" started-at="2021-11-04T10:18:23 BRT" name="Pay" finished-at="2021-11-04T10:18:36 BRT" depends-on-methods="tests.PrestaShopTest.buyProduct" duration-ms="13654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pay -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.PrestaShopTest@770c2e6b]" started-at="2021-11-04T10:18:36 BRT" name="quit" finished-at="2021-11-04T10:18:37 BRT" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.PrestaShopTest -->
+    </test> <!-- prestashop-2 -->
+    <test started-at="2021-11-04T10:17:17 BRT" name="prestashop-5" finished-at="2021-11-04T10:19:08 BRT" duration-ms="111594">
+      <class name="tests.PrestaShopTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PrestaShopTest@57d5872c]" started-at="2021-11-04T10:17:17 BRT" name="setup" finished-at="2021-11-04T10:18:42 BRT" duration-ms="85187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Parametizer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PrestaShopTest@57d5872c]" started-at="2021-11-04T10:18:42 BRT" name="Parametizer" finished-at="2021-11-04T10:18:42 BRT" depends-on-methods="basetest.BaseTest.setup" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sebastian2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sebastian Maurera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parametizer -->
+        <test-method signature="Logar()[pri:0, instance:tests.PrestaShopTest@57d5872c]" started-at="2021-11-04T10:18:42 BRT" name="Logar" finished-at="2021-11-04T10:18:52 BRT" duration-ms="9770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logar -->
+        <test-method signature="buyProduct()[pri:0, instance:tests.PrestaShopTest@57d5872c]" started-at="2021-11-04T10:18:52 BRT" name="buyProduct" finished-at="2021-11-04T10:18:57 BRT" depends-on-methods="tests.PrestaShopTest.Logar" duration-ms="5250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method signature="Pay()[pri:0, instance:tests.PrestaShopTest@57d5872c]" started-at="2021-11-04T10:18:57 BRT" name="Pay" finished-at="2021-11-04T10:19:08 BRT" depends-on-methods="tests.PrestaShopTest.buyProduct" duration-ms="11113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pay -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.PrestaShopTest@57d5872c]" started-at="2021-11-04T10:19:08 BRT" name="quit" finished-at="2021-11-04T10:19:08 BRT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.PrestaShopTest -->
+    </test> <!-- prestashop-5 -->
+    <test started-at="2021-11-04T10:18:38 BRT" name="prestashop-6" finished-at="2021-11-04T10:19:41 BRT" duration-ms="63523">
+      <class name="tests.PrestaShopTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PrestaShopTest@64c87930]" started-at="2021-11-04T10:18:38 BRT" name="setup" finished-at="2021-11-04T10:19:12 BRT" duration-ms="34216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Parametizer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PrestaShopTest@64c87930]" started-at="2021-11-04T10:19:12 BRT" name="Parametizer" finished-at="2021-11-04T10:19:12 BRT" depends-on-methods="basetest.BaseTest.setup" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[franlis2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Farnlis Maurera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parametizer -->
+        <test-method signature="Logar()[pri:0, instance:tests.PrestaShopTest@64c87930]" started-at="2021-11-04T10:19:12 BRT" name="Logar" finished-at="2021-11-04T10:19:22 BRT" duration-ms="9667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logar -->
+        <test-method signature="buyProduct()[pri:0, instance:tests.PrestaShopTest@64c87930]" started-at="2021-11-04T10:19:22 BRT" name="buyProduct" finished-at="2021-11-04T10:19:29 BRT" depends-on-methods="tests.PrestaShopTest.Logar" duration-ms="7173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method signature="Pay()[pri:0, instance:tests.PrestaShopTest@64c87930]" started-at="2021-11-04T10:19:29 BRT" name="Pay" finished-at="2021-11-04T10:19:41 BRT" depends-on-methods="tests.PrestaShopTest.buyProduct" duration-ms="12211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pay -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.PrestaShopTest@64c87930]" started-at="2021-11-04T10:19:41 BRT" name="quit" finished-at="2021-11-04T10:19:41 BRT" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.PrestaShopTest -->
+    </test> <!-- prestashop-6 -->
+    <test started-at="2021-11-04T10:17:17 BRT" name="prestashop-4" finished-at="2021-11-04T10:20:14 BRT" duration-ms="177677">
+      <class name="tests.PrestaShopTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PrestaShopTest@8b96fde]" started-at="2021-11-04T10:17:17 BRT" name="setup" finished-at="2021-11-04T10:19:42 BRT" duration-ms="145387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Parametizer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PrestaShopTest@8b96fde]" started-at="2021-11-04T10:19:42 BRT" name="Parametizer" finished-at="2021-11-04T10:19:42 BRT" depends-on-methods="basetest.BaseTest.setup" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aliris2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aliris Maurera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parametizer -->
+        <test-method signature="Logar()[pri:0, instance:tests.PrestaShopTest@8b96fde]" started-at="2021-11-04T10:19:42 BRT" name="Logar" finished-at="2021-11-04T10:19:55 BRT" duration-ms="13269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logar -->
+        <test-method signature="buyProduct()[pri:0, instance:tests.PrestaShopTest@8b96fde]" started-at="2021-11-04T10:19:55 BRT" name="buyProduct" finished-at="2021-11-04T10:20:02 BRT" depends-on-methods="tests.PrestaShopTest.Logar" duration-ms="6775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method signature="Pay()[pri:0, instance:tests.PrestaShopTest@8b96fde]" started-at="2021-11-04T10:20:02 BRT" name="Pay" finished-at="2021-11-04T10:20:14 BRT" depends-on-methods="tests.PrestaShopTest.buyProduct" duration-ms="11932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pay -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.PrestaShopTest@8b96fde]" started-at="2021-11-04T10:20:14 BRT" name="quit" finished-at="2021-11-04T10:20:14 BRT" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.PrestaShopTest -->
+    </test> <!-- prestashop-4 -->
+    <test started-at="2021-11-04T10:17:17 BRT" name="prestashop-3" finished-at="2021-11-04T10:20:48 BRT" duration-ms="211110">
+      <class name="tests.PrestaShopTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PrestaShopTest@44a664f2]" started-at="2021-11-04T10:17:17 BRT" name="setup" finished-at="2021-11-04T10:20:17 BRT" duration-ms="180434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Parametizer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PrestaShopTest@44a664f2]" started-at="2021-11-04T10:20:17 BRT" name="Parametizer" finished-at="2021-11-04T10:20:17 BRT" depends-on-methods="basetest.BaseTest.setup" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alexis2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alexis Maurera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parametizer -->
+        <test-method signature="Logar()[pri:0, instance:tests.PrestaShopTest@44a664f2]" started-at="2021-11-04T10:20:17 BRT" name="Logar" finished-at="2021-11-04T10:20:30 BRT" duration-ms="12977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logar -->
+        <test-method signature="buyProduct()[pri:0, instance:tests.PrestaShopTest@44a664f2]" started-at="2021-11-04T10:20:30 BRT" name="buyProduct" finished-at="2021-11-04T10:20:36 BRT" depends-on-methods="tests.PrestaShopTest.Logar" duration-ms="5961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method signature="Pay()[pri:0, instance:tests.PrestaShopTest@44a664f2]" started-at="2021-11-04T10:20:36 BRT" name="Pay" finished-at="2021-11-04T10:20:47 BRT" depends-on-methods="tests.PrestaShopTest.buyProduct" duration-ms="11237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pay -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.PrestaShopTest@44a664f2]" started-at="2021-11-04T10:20:47 BRT" name="quit" finished-at="2021-11-04T10:20:48 BRT" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.PrestaShopTest -->
+    </test> <!-- prestashop-3 -->
+    <test started-at="2021-11-04T10:17:17 BRT" name="prestashop-1" finished-at="2021-11-04T10:21:31 BRT" duration-ms="254043">
+      <class name="tests.PrestaShopTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PrestaShopTest@646be2c3]" started-at="2021-11-04T10:17:17 BRT" name="setup" finished-at="2021-11-04T10:20:53 BRT" duration-ms="216149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Parametizer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PrestaShopTest@646be2c3]" started-at="2021-11-04T10:20:53 BRT" name="Parametizer" finished-at="2021-11-04T10:20:53 BRT" depends-on-methods="basetest.BaseTest.setup" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[franklin2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Franklin Maurera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parametizer -->
+        <test-method signature="Logar()[pri:0, instance:tests.PrestaShopTest@646be2c3]" started-at="2021-11-04T10:20:53 BRT" name="Logar" finished-at="2021-11-04T10:21:12 BRT" duration-ms="18659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logar -->
+        <test-method signature="buyProduct()[pri:0, instance:tests.PrestaShopTest@646be2c3]" started-at="2021-11-04T10:21:12 BRT" name="buyProduct" finished-at="2021-11-04T10:21:18 BRT" depends-on-methods="tests.PrestaShopTest.Logar" duration-ms="6481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method signature="Pay()[pri:0, instance:tests.PrestaShopTest@646be2c3]" started-at="2021-11-04T10:21:18 BRT" name="Pay" finished-at="2021-11-04T10:21:30 BRT" depends-on-methods="tests.PrestaShopTest.buyProduct" duration-ms="12232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pay -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.PrestaShopTest@646be2c3]" started-at="2021-11-04T10:21:30 BRT" name="quit" finished-at="2021-11-04T10:21:31 BRT" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.PrestaShopTest -->
+    </test> <!-- prestashop-1 -->
+  </suite> <!-- presta-shop-module -->
+</testng-results>

@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name = "presta-shop-module">
+<suite name = "presta-shop-module" parallel="tests">
     <test name = "prestashop-1">
         <parameter name = "email" value = "franklin2@gmail.com"/>
         <parameter name = "password" value = "123456"/>
