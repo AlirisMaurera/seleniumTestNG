@@ -3,7 +3,7 @@ pipeline{
 		stages{
 			stage ('Subindo docker compose'){
 				steps{
-					sh 'docker-compose up -d --scale chrome=4 --scale firefox=0'
+					sh 'docker-compose up'
 					}
 			}
 			stage ('Build projeto'){
