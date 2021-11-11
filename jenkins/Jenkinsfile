@@ -3,7 +3,7 @@ pipeline{
 		stages{
 			stage ('Subindo docker compose'){
 				steps{
-					sh 'docker-compose up'
+					sh "docker-compose up"
 					}
 			}
 			stage ('Build projeto'){
