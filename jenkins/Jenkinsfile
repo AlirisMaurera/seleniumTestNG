@@ -8,9 +8,7 @@ pipeline{
 			}
 			stage ('Build projeto'){
 				steps{
-					sh 'mvn clean package -DskipTests'
-					dir ('/target')
-					sh 'java -cp testcomseleniumjunit.jar:testcomseleniumjunit-tests.jar:target/libs/* org.testng.TesNG /src/test/resources/loginttest.xml'
+					sh "docker-compose down"
 				}
 			}
 		}
